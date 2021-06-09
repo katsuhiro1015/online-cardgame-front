@@ -2,7 +2,7 @@
 
 Online card game React front app
 
-## プロジェク t の作成
+## プロジェクトの作成
 
 ```
 $ docker-compose run --rm online-cardgame-front sh -c "npm install -g create-react-app && create-react-app react-app --template typescript"
