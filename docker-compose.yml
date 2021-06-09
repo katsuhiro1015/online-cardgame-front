@@ -1,0 +1,11 @@
+version: '3'
+services:
+  online-cardgame-front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+     - ./:/usr/src/app
+    command: sh -c "cd react-app && yarn start"
+    ports:
+     - "3000:3000"
