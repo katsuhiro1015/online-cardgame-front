@@ -25,7 +25,7 @@ $ docker-compose stop
 ## 環境準備
 
 ```
-$ install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+$ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 $ touch .prettierrc.js
 ```
 
